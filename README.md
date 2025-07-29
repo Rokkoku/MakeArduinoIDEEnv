@@ -33,7 +33,7 @@ PowerShellスクリプトをバッチファイルから呼び出すことで、�
 `ini/settings.ini` の例：
 
 ```
-ArduinoIDEInstallPath=C:\|MyArduinoIDE
+ArduinoIDEInstallPath=C:\\MyArduinoIDE
 VID_VALUE=0x2341
 PID_VALUE=0x8036
 ```
