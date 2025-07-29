@@ -38,7 +38,7 @@ VID_VALUE=0x2341
 PID_VALUE=0x8036
 ```
 
-- `ArduinoIDEInstallPath` … Arduino IDEのインストール先パス※「\」を使いたい場合は「\\」に置き換えてください。
+- `ArduinoIDEInstallPath` … Arduino IDEのインストール先パス※「\」を使いたい場合は「\\\\」に置き換えてください。
 - `VID_VALUE` / `PID_VALUE` … 書き換えたいUSBデバイスのVID/PID
 
 ---
