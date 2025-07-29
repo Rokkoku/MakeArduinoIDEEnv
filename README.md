@@ -48,7 +48,8 @@ PID_VALUE=0x8036
 - 本バッチはPowerShellを利用します。Windows専用です。
 - インターネット接続が必要です。
 - 既存のArduino IDEや設定ファイルが上書きされる場合があります。必要に応じてバックアップを取ってください。
-- 初回IDEが起動しますが、ソフトを閉じてください。(実害はありませんが、設定が未反映の箇所があります。)
+   * C:\ArduinoIDE\arduino-1.8.19 (※デフォルト値)
+   * %USERPROFILE%\AppData\Local\Arduino15
 
 ---
 
