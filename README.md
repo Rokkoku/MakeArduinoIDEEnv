@@ -63,3 +63,6 @@ PID_VALUE=0x8036
 ```
 
 ---
+### 参考
+batファイルからPowerShellを実行する
+https://qiita.com/lifequery/items/23476636000c91fc5cca
