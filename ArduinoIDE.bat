@@ -17,8 +17,8 @@ $Arduino_ver="1.8.19"
 $global:Arduino_Path="C:\arduino-${Arduino_ver}"
 $global:Arduino_sketchesPath = "${Arduino_Path}\sketches"
 
-$ArduinoAVRboards_ver='1.8.2'
-$ArduinoSTL_ver='1.1.0'
+$ArduinoAVRboards_ver='1.8.3'
+$ArduinoSTL_ver='1.3.3'
 $settings_ini_Path="${currentdirectory}\ini\settings.ini"
 
 Function CheckSettings(){
@@ -107,8 +107,8 @@ Function InstallArduinoSTL() {
 }
 
 Function ReplaceVIDandPID() {
-    $txtfile="$env:USERPROFILE\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.2\boards.txt"
-    $copyfile="$env:USERPROFILE\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.2\boards.txt.bak"
+    $txtfile="$env:USERPROFILE\AppData\Local\Arduino15\packages\arduino\hardware\avr\${ArduinoAVRboards_ver}\boards.txt"
+    $copyfile="$env:USERPROFILE\AppData\Local\Arduino15\packages\arduino\hardware\avr\${ArduinoAVRboards_ver}\boards.txt.bak"
     # 置換マッピング（旧文字列 = 新文字列）
     $replacements = @{
         'leonardo\.vid\.1=0x[A-Fa-f0-9]+' = 'leonardo.vid.1='+${VID_VALUE}
